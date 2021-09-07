@@ -30,7 +30,8 @@ const Home = () => {
                             </Link>
                         </div>
                         <div className="text-bottom">
-                            <p>This project is developed by @iyashjayesh</p>
+                            <p>Online Code Editor is a project where user can test their HTML, CSS, JS code online. Just like CodePen! 
+Online Code Editor will help the user to test their code online. Even users can switch the modes (Dark & Light). Wherein LocalStorage, React Hooks, Bootstrap Library was used to develop the project.</p>
                         </div>
                     </div>
                     <div className="col img-section">

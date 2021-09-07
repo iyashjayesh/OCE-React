@@ -1,74 +1,112 @@
 # Online Code Editor
 
-You can test you code online. Just like code pen. :) 
+Online Code Editor is a project where user can test their HTML, CSS, JS code online. Just like CodePen! 
 
-# Getting Started with Create React App
+<!-- ![OCE](https://user-images.githubusercontent.com/53042582/132350321-d2370e92-6d9c-49be-86b9-8fcaa1095af6.jpg) -->
+ 
+## Open For Contributions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+  <p align="center">
+    <br />
+    <a href="https://oce-react.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/iyashjayesh/OCE-React/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/iyashjayesh/OCE-React/issues">Request Feature</a>
+  </p>
+</p>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+## Table of Contents
+- [Project Breakdown](#project-breakdown)
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contribution](#contribute)
+- [Contact](#maintainer)
 
-### `npm start`
+<!-- Project Breakdown -->
+## Project Breakdown 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+<img src="./public/breakdown.png"/>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Online Code Editor is a project where user can test their HTML, CSS, JS code online. Just like CodePen! 
+Online Code Editor will help the user to test their code online. Even users can switch the modes (Dark & Light). Wherein LocalStorage, React Hooks, Bootstrap Library was used to develop the project.
+You can use it live here: <a href="https://github.com/iyashjayesh/OCE-React">Online Code Editor</a>
 
-### `npm run build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React](https://reactjs.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To get a local copy up and running follow these simple steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This is an example of how to list things you need to use the software and how to install them.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- npm
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+npm install npm@latest -g
+```
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+git clone https://github.com/iyashjayesh/OCE-React.git
+```
 
-### Code Splitting
+2. Install NPM packages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+npm install 
+```
 
-### Analyzing the Bundle Size
+<!-- USAGE EXAMPLES -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
 
-### Making a Progressive Web App
+The primary goal of this project is to help you learn basic Linux commands in your browser itself.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+_For more examples, please refer to the [Working Demo](https://oce-react.netlify.app/)_
 
-### Advanced Configuration
+<!-- ROADMAP -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Roadmap
 
-### Deployment
+See the [open issues](https://github.com/iyashjayesh/OCE-React/issues) for a list of proposed features (and known issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- CONTRIBUTING -->
 
-### `npm run build` fails to minify
+## Contribute
+> Open to Contribution. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Maintainer
+Important decisions regarding the project are taken by the following maintainer.
+
+| Yash        |
+| :-------------: |
+| <img  height="100" width="100" src="https://avatars.githubusercontent.com/u/53042582?v=4">      |
+| [@iyashjayesh](https://github.com/iyashjayesh)      |
+
+
+## Deployment
+<a href="https://oce-react.netlify.app/"><img src="https://img.shields.io/badge/-Deployment%20with%20CI/CD-black?style=for-the-badge&logo=netlify"/></a>

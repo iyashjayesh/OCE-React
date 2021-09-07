@@ -35,7 +35,7 @@ Online Code Editor is a project where user can test their HTML, CSS, JS code onl
 ## Project Breakdown 
 
 <p align="center">
-<img src="./public/breakdown.png"/>
+<img src="./public/breakdown.jpg"/>
 </p>
 
 <!-- ABOUT THE PROJECT -->

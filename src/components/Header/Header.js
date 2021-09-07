@@ -8,22 +8,8 @@ const Header = () => {
                 <Navbar.Brand href="/">Online Code Editor - HTML,CSS,JS</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
-                    {/* <Nav className="me-auto">
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav> */}
                     <Nav>
-                        <Nav.Link href="/about-us">About Us</Nav.Link>
-                        {/* <Nav.Link eventKey={2} href="#memes">
-                            Dank memes
-                        </Nav.Link> */}
+                        <Nav.Link href="https://github.com/iyashjayesh/OCE-React"><button type="button" className="btn btn-success">Contribute</button></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

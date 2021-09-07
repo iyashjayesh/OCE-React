@@ -14,16 +14,24 @@ import Main from '../../asset/img/main.gif'
 
 const Home = () => {
     return (
-        <>
+        <>  
+            <div className="github-wrapper">
+                <a rel="noreferrer" href="https://github.com/iyashjayesh/OCE-React" target="_blank"><h3>Github</h3></a>
+            </div>
             <div className="home container">
                 <div className="row">
                     <div className="col text-content">
-                        <h1>Online Code Editor</h1>
-                        <span>A Simple Online Code Editor <br/>Just like Code Pen!</span>
-                        <br/>
-                        <Link to="/online-code-editor">
-                            <button type="button" className="btn btn-primary mt-4 bon">Try it!</button>
-                        </Link>
+                        <div className="text-top">
+                            <h1>Online Code Editor</h1>
+                            <span>A Simple Online Code Editor <br/>Just like Code Pen!</span>
+                            <br/>
+                            <Link to="/online-code-editor">
+                                <button type="button" className="btn btn-primary mt-4 bon">Try it!</button>
+                            </Link>
+                        </div>
+                        <div className="text-bottom">
+                            <p>This project is developed by @iyashjayesh</p>
+                        </div>
                     </div>
                     <div className="col img-section">
                         <img className="img-size" src={Main} alt="main-img"/>

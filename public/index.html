@@ -17,10 +17,33 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>    
+
+
+      <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+      
     <title>Online Code Editor</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script>
+      const options = {
+        bottom: '32px', // default: '32px'
+        right: '50px', // default: '32px'
+        left: 'unset', // default: 'unset'
+        time: '0.5s', // default: '0.3s'
+        mixColor: '#fff', // default: '#fff'
+        backgroundColor: '#fff',  // default: '#fff'
+        buttonColorDark: '#100f2c',  // default: '#100f2c'
+        buttonColorLight: '#fff', // default: '#fff'
+        saveInCookies: false, // default: true,
+        label: '🌓', // default: ''
+        autoMatchOsTheme: true // default: true
+      }
+
+      const darkmode = new Darkmode(options);
+      darkmode.showWidget();
+    </script>
   </body>
 </html>

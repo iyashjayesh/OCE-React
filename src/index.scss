@@ -88,6 +88,7 @@ code {
   display: flex;
 }
 
+
 .editor-container {
   flex-grow: 1;
   flex-basis: 0;
@@ -133,4 +134,28 @@ code {
   border-bottom-right-radius: .5rem;
   border-bottom-left-radius: .5rem;
   overflow: hidden;
+}
+
+
+.bon{
+  position: absolute;
+  right: 0;
+}
+
+.iframe-box{
+  width: 100%;
+  height: 786px;
+}
+
+.pane-full-page{
+  width: 100%;
+  height: 786px;
+}
+
+.back-btn{
+  padding: 10px;
+  margin-top:50px;
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
 }

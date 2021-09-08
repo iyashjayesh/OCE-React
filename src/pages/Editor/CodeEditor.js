@@ -2,6 +2,7 @@ import ScriptEditor from "../../components/ScriptEditor/Editor";
 import React, { useState, useEffect } from "react";
 import useLocalStorage from "../../hooks/useLocalStorage";
 import Header from "../../components/Header/Header";
+import {Link} from 'react-router-dom'
 
 function CodeEditor() {
     const [html, setHtml] = useLocalStorage("html", "");
@@ -26,7 +27,7 @@ function CodeEditor() {
     return (
         <div>
             <Header/>
-            <div className="pane top -pane">
+            <div className="pane top-pane">
                 <ScriptEditor
                     language="xml"
                     displayName="HTML"
@@ -47,6 +48,10 @@ function CodeEditor() {
                 />
             </div>
             <div className="pane">
+                <Link to="/new">
+                    <button type="button" className="btn btn-primary bon">FullPageView</button>
+                </Link>
+
                 <iframe
                     srcDoc={srcDoc}
                     title="output"

@@ -26,7 +26,7 @@ const Home = () => {
                             <span>A Simple Online Code Editor <br/>Just like Code Pen!</span>
                             <br/>
                             <Link to="/online-code-editor">
-                                <button type="button" className="btn btn-primary mt-4 bon">Try it!</button>
+                                <button type="button" className="btn btn-primary mt-4">Try it!</button>
                             </Link>
                         </div>
                         <div className="text-bottom">

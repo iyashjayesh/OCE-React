@@ -30,8 +30,17 @@ const Home = () => {
                             </Link>
                         </div>
                         <div className="text-bottom">
-                            <p>Online Code Editor is a project where user can test their HTML, CSS, JS code online. Just like CodePen! 
-Online Code Editor will help the user to test their code online. Even users can switch the modes (Dark & Light). Wherein LocalStorage, React Hooks, Bootstrap Library was used to develop the project.</p>
+                            <p>
+                                Like many live code playgrounds, OCE is an online code editor for testing and displaying HTML, CSS, and JavaScript code snippets by users just like CodePen. It's also support Sass and SCSS (both with an optional Compass or Bourbon add-on).
+                            </p> 
+                            <p>
+                                It's core functionality is that it allows you to write code in the browser and view the results as you go. It's an open-source learning environment where developers may generate and test their code snippets. Since it has a web-based code editor, you can change your code and see the result immediately, which allows quicker debugging. 
+                            </p>
+                            <p>
+                                Users can also change the modes (Dark & Light). The project was built using ReactJS & Bootstrap Library. "Netlify" is used for the deployment of the project.
+                            </p>
+                            {/* <p>Online Code Editor is a project where user can test their HTML, CSS, JS code online. Just like CodePen! 
+Online Code Editor will help the user to test their code online. Even users can switch the modes (Dark & Light). Wherein LocalStorage, React Hooks, Bootstrap Library was used to develop the project.</p> */}
                         </div>
                     </div>
                     <div className="col img-section">

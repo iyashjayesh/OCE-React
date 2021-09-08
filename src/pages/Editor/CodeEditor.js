@@ -48,7 +48,7 @@ function CodeEditor() {
                 />
             </div>
             <div className="pane">
-                <Link to="/new">
+                <Link to="/fullview">
                     <button type="button" className="btn btn-primary bon">FullPageView</button>
                 </Link>
 

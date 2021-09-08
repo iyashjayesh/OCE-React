@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Route exact path="/" component={Home} />
       <Route exact path="/online-code-editor" component={CodeEditor} />
-      <Route exact path="/new" component={FullPageView} />
+      <Route exact path="/fullview" component={FullPageView} />
     </Router>
   );
 }

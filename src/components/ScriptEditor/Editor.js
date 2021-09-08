@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 import 'codemirror/lib/codemirror.css'
 import 'codemirror/theme/material.css'
 import 'codemirror/mode/xml/xml'
-import 'codemirror/mode/javascript/javascript'
+import 'codemirror/mode/javascript/javascript.js'
 import 'codemirror/mode/css/css'
+import 'codemirror/theme/material.css'
 import { Controlled as ControlledEditor } from 'react-codemirror2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCompressAlt, faExpandAlt } from '@fortawesome/free-solid-svg-icons'
@@ -41,8 +42,8 @@ export default function Editor(props) {
           lineWrapping: true,
           lint: true,
           mode: language,
-          theme: 'material',
-          lineNumbers: true
+          theme: "material",
+          lineNumbers: true,
         }}
       />
     </div>

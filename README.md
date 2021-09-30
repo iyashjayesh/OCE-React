@@ -6,6 +6,15 @@ Online Code Editor is a project where user can test their HTML, CSS, JS code onl
  
 ## Open For Contributions
 
+
+<!-- Project Breakdown -->
+## Project Breakdown 
+
+<p align="center">
+<img src="./public/breakdown.jpg"/>
+</p>
+
+
 <br />
   <p align="center">
     <br />
@@ -30,13 +39,6 @@ Online Code Editor is a project where user can test their HTML, CSS, JS code onl
 - [Roadmap](#roadmap)
 - [Contribution](#contribute)
 - [Contact](#maintainer)
-
-<!-- Project Breakdown -->
-## Project Breakdown 
-
-<p align="center">
-<img src="./public/breakdown.jpg"/>
-</p>
 
 <!-- ABOUT THE PROJECT -->
 
